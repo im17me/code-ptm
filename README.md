@@ -9,27 +9,27 @@
 
 ## 常用动词前缀
 
-### 二字母： do	 is	 on	
+* 二字母： do	 is	 on	
 
-### 三字母：add	 chg  del  get  reg  has  off
+* 三字母：add	 chg  del  get  reg  has  off
 
-四字母：save  edit	dele  find  done  view  list  send  show  open
+* 四字母：save  edit	dele  find  done  view  list  send  show  open
 
-五字母：clear  check  login  close  query 
+* 五字母：clear  check  login  close  query 
 
-六字母：insert  append  update  modify  delete remove  select  search  accept  change logout  signin  
+* 六字母：insert  append  update  modify  delete remove  select  search  accept  change logout  signin  
 
-七字母：display  signout 
+* 七字母：display  signout 
 
-八字母：
+* 八字母：
 
-add	insert	append	save	
+#### add	insert	append	save	
 
-chg	update	modify	edit	
+#### chg	update	modify	edit	
 
-del	delete	remove	dele	clear
+#### del	delete	remove	dele	clear
 
-get	select	search	find	query
+#### get	select	search	find	query
 
 ## 常用形容词前缀
 
