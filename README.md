@@ -33,4 +33,4 @@
 
 ## 常用形容词前缀
 
-recent/lastest	近期/最新	hottest	最热门	
+* recent/lastest	近期/最新	hottest	最热门	
