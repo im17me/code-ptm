@@ -23,13 +23,13 @@
 
 * 八字母：
 
-#### add	insert	append	save	
+* add	insert	append	save	
 
-#### chg	update	modify	edit	
+* chg	update	modify	edit	
 
-#### del	delete	remove	dele	clear
+* del	delete	remove	dele	clear
 
-#### get	select	search	find	query
+* get	select	search	find	query
 
 ## 常用形容词前缀
 
