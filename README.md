@@ -7,11 +7,11 @@
 
 * 下面是笔者常使用的前缀,希望大家一起补充一下
 
-##常用动词前缀
+## 常用动词前缀
 
-二字母： do	 is	 on	
+### 二字母： do	 is	 on	
 
-三字母：add	 chg  del  get  reg  has  off
+### 三字母：add	 chg  del  get  reg  has  off
 
 四字母：save  edit	dele  find  done  view  list  send  show  open
 
@@ -31,6 +31,6 @@ del	delete	remove	dele	clear
 
 get	select	search	find	query
 
-##常用形容词前缀
+## 常用形容词前缀
 
 recent/lastest	近期/最新	hottest	最热门	
