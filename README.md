@@ -4,4 +4,4 @@
 ### 工欲善其事，必先利其器
 
 
-![tech.png](https://github.com/im17me/code-ptm/blob/master/img/tech.png)
+![image](/img/tech.png)
