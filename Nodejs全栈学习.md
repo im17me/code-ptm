@@ -2,7 +2,7 @@
 
 ## VS Code工具
 
-#### 安装 TabNine 代码补全工具
+#### 安装插件 TabNine 代码补全工具
 
 ![image](/img/TabNine.png)
 
