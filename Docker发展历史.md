@@ -37,4 +37,4 @@
 
 * 每一个镜像都可能依赖于由一个或多个下层的组成的另一个镜像。我们说，下层那个镜像是上层镜像的父镜像。（可以理解为上面的层是基于下层之上）
 
-https://upload-images.jianshu.io/upload_images/15572192-9ea8efe26010d3a0.png?imageMogr2/auto-orient/strip|imageView2/2/w/778/format/webp
+https://upload-images.jianshu.io/upload_images/15572192-9ea8efe26010d3a0.png
