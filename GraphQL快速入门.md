@@ -32,6 +32,9 @@ https://graphql.cn/
 
 https://blog.csdn.net/qq_41882147/article/details/82966783
 
+https://jerryzou.com/posts/10-questions-about-graphql/
+
 https://juejin.im/post/5a49e5ccf265da430d585cfd
 
 https://github.com/naihe138/GraphQL-demo
+
