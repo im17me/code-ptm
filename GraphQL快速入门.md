@@ -14,4 +14,6 @@
 ## 三、GraphQL尝尝鲜——(GraphQL简单例子)
 
 ### 参考文档
+https://graphql.cn/
+
 https://blog.csdn.net/qq_41882147/article/details/82966783
