@@ -8,7 +8,7 @@
 * 的确可以，这就是GraphQL强大的地方。
 * 引用官方文档的一句话：
 
-`ask exactly what you want.`
+> `ask exactly what you want.`
 
 ## 二、为什么要使用GraphQL?
 ## 三、GraphQL尝尝鲜——(GraphQL简单例子)
