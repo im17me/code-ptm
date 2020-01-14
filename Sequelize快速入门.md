@@ -31,3 +31,5 @@ https://juejin.im/post/5c259cf46fb9a049eb3bff49
 https://github.com/demopark/sequelize-docs-Zh-CN
 
 https://zhuanlan.zhihu.com/p/91195711
+
+https://blog.csdn.net/qmzmzxk/article/details/82109582
