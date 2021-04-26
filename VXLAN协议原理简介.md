@@ -16,7 +16,7 @@
 1. Vxlan报文
     vxlan(virtual Extensible LAN)虚拟可扩展局域网，是一种overlay的网络技术，使用MAC in UDP的方法进
 行封装，共50字节的封装报文头。具体的报文格式如下：
-http://img.blog.csdn.net/20131116103842062?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZnJlZXpndzE5ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center
+![image](/img/vxlan1.png)
 
 (1) vxlan header
     共计8个字节，目前使用的是Flags中的一个8bit的标识位和24bit的VNI(Vxlan Network identifier)，
@@ -64,12 +64,12 @@ Ethertype：设置值为0x8000，指明数据包为IPv4的。
 
 ### (1) vxlan初始化
 
-http://img.blog.csdn.net/20131116103939171?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZnJlZXpndzE5ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center
+![image](/img/vxlan2.png)
 
  VM1和VM2连接到VXLAN网络(VNI)100，两个VXLAN主机加入IP多播组239.119.1.1
 
 ### (2) ARP请求
-http://img.blog.csdn.net/20131116104014546?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZnJlZXpndzE5ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center
+![image](/img/vxlan3.png)
 
    1) VM1以广播的形式发送ARP请求；
    2) VTEP1封装报文。打上VXLAN标识为100，外层IP头DA为IP多播组(239.119.1.1)，SA为IP_VTEP1.
@@ -79,7 +79,7 @@ http://img.blog.csdn.net/20131116104014546?watermark/2/text/aHR0cDovL2Jsb2cuY3Nk
    5) VM2对接收到的ARP请求进行响应；
 
 ### (3) ARP应答
-http://img.blog.csdn.net/20131116104126453?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZnJlZXpndzE5ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center
+![image](/img/vxlan4.png)
   1) VM2准备ARP响应报文后向VM1发送响应报文
 
        2)VTEP2接收到VM2的响应报文后把它封装在ip单播报文中（VXLAN标识依然为100），然 后向VM1发送单播
@@ -103,7 +103,7 @@ VTEP1 收到VM1发送数据包，用MAC地址从流表中检查VM1与VM2是否�
     
 ### 5 Vxlan网关
 
-http://img.blog.csdn.net/20131116104212765?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZnJlZXpndzE5ODU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center
+![image](/img/vxlan5.png)
  如果需要VXLAN网络和非VXLAN网络连接，必须使用VXLAN网关才能把VXLAN网络和外部网络进行桥接和
 完成VXLAN ID和VLAN ID之间的映射和路由，和VLAN一样，VXLAN网络之间的通信也需要三层设备的支持，
 即VXLAN路由的支持。同样VXLAN网关可由硬件和软件来实现。
